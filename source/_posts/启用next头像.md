@@ -1,8 +1,8 @@
 ---
 title: 启用hexo-next头像
 date: 2019-02-06 16:00:40
-tags: 技术
-categories: hexo
+tags: hexo
+categories: 技术
 ---
 hexo版本：v3.8.0  
 在网上查找了很多资料，对于一个非常不熟悉代码的人来说，有点困难，虽然花了一点时间，  
