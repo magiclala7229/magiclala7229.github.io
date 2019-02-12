@@ -39,6 +39,6 @@ exit0
 ```sudo ssr start```  
 ```sudo ssr stop ```
 8. 同时你还需要设置系统代理
-
+![deepin ssr系统代理.png](https://i.loli.net/2019/02/12/5c6286c6b453d.png)
 9. 这样你就可以访问国外网站了
 10. 当你不需要访问国外网站时，可以直接关闭系统代理。
