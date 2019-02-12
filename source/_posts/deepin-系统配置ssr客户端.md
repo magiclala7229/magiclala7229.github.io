@@ -2,7 +2,7 @@
 title: deepin系统 配置ssr客户端
 date: 2019-02-12 12:00:37
 tags: ssr
-categories: 
+categories: 技术
 ---
 1. 使用root用户登录(su -),运行一下命令：
 ```
