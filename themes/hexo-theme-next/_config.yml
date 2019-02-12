@@ -279,8 +279,8 @@ excerpt_description: true
 # Use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
   #enable: false
-  enable: true
-  length: 150
+  enable: false
+  length: 800
 
 # Read more button
 # If true, the read more button would be displayed in excerpt section.
@@ -867,7 +867,7 @@ canvas_nest:
   color: '0,0,255' # RGB values, use ',' to separate
   opacity: 0.5 # the opacity of line: 0~1
   zIndex: -1 # z-index property of the background
-  count: 99 # the number of lines
+  count: 200 # the number of lines
 
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
