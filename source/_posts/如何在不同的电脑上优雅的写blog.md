@@ -4,7 +4,6 @@ date: 2019-02-12 19:35:58
 tags: hexo
 categories: 技术
 ---
-<font face="微软雅黑">
 许多使用hexo编写blog的人应该都会有这样的困惑，如何才能在不同的电脑中编写自己的blog呢？  
 带着这个疑问，我开始搜索各种网上的资料，大多都是利用git的分支来实现，还有是通过私有仓库来同步，  
 那说明git分支应该是比较主流的思路了，终于我找到了这篇文章，然后跟着这篇文章的思路，一步一步，  
@@ -73,7 +72,9 @@ git push origin hexo
 个人PC上的工作已经完成了，下面讲一下如果你换到了另外一台电脑上，应该如何操作。  
 ## 将博客项目克隆下来
 `git clone git@github.com:xxx/xxx.github.io.git`  
-***注意这里一定要用ssh的方式，而不要用https的方式，前面已经说过原因了  
+
+***注意这里一定要用ssh的方式，而不要用https的方式，前面已经说过原因了***
+
 克隆下来的仓库和你在个人PC中的目录是一模一样的，所以可以在这基础上继续写博客了。  
 但是由于.gitignore文件中过滤了node_modules\，所以克隆下来的目录里没有node_modules\，  
 这是hexo所需要的组件，所以要在该目录中重新安装hexo，但不需要hexo init。
@@ -90,10 +91,9 @@ git add .
 git commit -m "add work PC test"
 git push origin hexo
 ```
-##部署到master分支  
+## 部署到master分支  
 `hexo g -d `  
 **这样你在另一台电脑上写的博客就能正常的发布到你的网站上了**
-***
 ## 日常操作
 如果上面的过程都操作无误的话，你就可以在任何能联网的电脑上写博客啦。一般写博客的流程是下面这样。  
 ## 写博客前
@@ -112,4 +112,3 @@ git push origin hexo
 然后将其部署到master分支上  
 `hexo g -d`  
 整个流程就是这样的
-</font>
