@@ -82,7 +82,7 @@ secrets file = /etc/rsyncd/rsyncd.passwd
 ```
 - 编辑rsyncd.passwd，你可以自定义密码  
 `root:123456`
-- 更改rysncd.passwd权限  
+- 更改rsyncd.passwd权限  
 `chmod 600 /etc/rsyncd/rsyncd.passwd`
 - 编辑rsyncd.motd内容，也可以不编辑，因为这个只是显示连接之后的内容  
 `++++++++++++++++++++`  
