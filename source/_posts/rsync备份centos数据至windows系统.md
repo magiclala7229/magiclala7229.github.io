@@ -103,7 +103,7 @@ iptables -A INPUT -p tcp -m state --state NEW  -m tcp --dport 8877 -j ACCEPT
 service iptables save
 ```
 ## 7. 测试是否可以访问数据模块
-`rsync --port=8877 --list-only  root@10.1.4.44::resources`  
+`rsync --port=8877 --list-only  root@192.168.92.139::resources`  
 输入命令后会显示rsyncd.motd的界面（如过编辑过的话），然后会要求输入密码，则表示成功
 
 # 二、 客户端配置
